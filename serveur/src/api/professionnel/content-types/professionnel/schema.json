@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "professionnels",
+  "info": {
+    "singularName": "professionnel",
+    "pluralName": "professionnels",
+    "displayName": "professionnel"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nom_salon": {
+      "type": "string"
+    },
+    "nom_responsable": {
+      "type": "string"
+    },
+    "prenom_responsable": {
+      "type": "string"
+    },
+    "specialisation_principale": {
+      "type": "string"
+    },
+    "postale": {
+      "type": "string"
+    },
+    "telephone": {
+      "type": "string"
+    },
+    "photo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "description": {
+      "type": "string"
+    },
+    "tarif": {
+      "type": "string"
+    },
+    "disponibilite": {
+      "type": "string"
+    }
+  }
+}

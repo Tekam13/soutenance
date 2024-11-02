@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "employes",
+  "info": {
+    "singularName": "employe",
+    "pluralName": "employes",
+    "displayName": "employe"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nom": {
+      "type": "string"
+    },
+    "prenom": {
+      "type": "string"
+    },
+    "specialite": {
+      "type": "string"
+    },
+    "telephone": {
+      "type": "string"
+    },
+    "salaire": {
+      "type": "string"
+    }
+  }
+}

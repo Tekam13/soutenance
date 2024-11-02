@@ -1,0 +1,8 @@
+git init
+git add .
+git commit -m nom du commit
+config --global user.email = "dimitritekamkoptieu@gmail.com"
+git config --global user.user = "Tekam13"
+git branch -M main
+git remote add origin https://github.com/Tekam13/Group.git
+git push -u origin main

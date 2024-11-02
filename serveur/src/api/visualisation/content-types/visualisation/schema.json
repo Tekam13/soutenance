@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "visualisations",
+  "info": {
+    "singularName": "visualisation",
+    "pluralName": "visualisations",
+    "displayName": "Visualisation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "photo": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}
